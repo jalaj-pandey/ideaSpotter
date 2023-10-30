@@ -1,0 +1,124 @@
+.SigninForm {
+    float: right;
+    width: 50%;
+    height: 75vh;
+    text-align: left;
+    padding: 40px 30px;
+    overflow: hidden;
+}
+
+.SigninImg {
+    float: left;
+    padding-left: 30px;
+    padding-right: 2%;
+    width: 40%;
+    height: 65vh;
+    object-fit: contain;
+}
+
+.LoginForm {
+    float: right;
+    width: 50%;
+    height: 75vh;
+    text-align: left;
+    padding: 40px 30px;
+    overflow: hidden;
+
+}
+
+.LoginImg {
+    float: left;
+    margin: 40px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 40px;
+    /* padding-top: 40px; */
+    width: 35%;
+    height: 60vh;
+    object-fit: fill;
+}
+
+
+.notesForm {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr;  */
+    gap: 10px;
+    width: 40%;
+    padding: 20px;
+    height: 50%;
+}
+
+.notesImg {
+    float: left;
+    width: 60%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+
+
+.cardImg {
+    background: url('../images/notecard.png');
+    object-fit: cover;
+}
+
+div.jalaj {
+    word-wrap: "break-word";
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .LoginImg {
+        display: grid;
+        width: 100%;
+        padding-left: 20px;
+        object-fit: fill;
+    }
+
+    .LoginForm {
+        display: grid;
+        width: 100%;
+        height: 60vh;
+        text-align: left;
+        padding: 40px 60px;
+        overflow: hidden;
+
+    }
+
+    .SigninImg {
+        display: grid;
+        width: 100%;
+        padding-left: 20px;
+        object-fit: fill;
+    }
+
+    .SigninForm {
+        display: grid;
+        width: 100%;
+        height: 70vh;
+        text-align: left;
+        padding: 40px 60px;
+        overflow: hidden;
+    }
+
+    .cardImg {
+        background: url('../images/notecard.png');
+        object-fit: cover;
+    }
+
+    .notesImg {
+        display: block;
+        width: 100%;
+        height: 40vh;
+        object-fit:scale-down;
+    }
+    .notesForm {        
+        width: 100%;
+        padding: 30px;
+        height: 50%;
+    }
+    
+}
