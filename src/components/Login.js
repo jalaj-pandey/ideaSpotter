@@ -43,11 +43,11 @@ export const Login = (props) => {
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="email" style={{"line-height":"2"}}>Email: </label>
-                    <input type="email" className="form-control" id="email" value={credentials.email} onChange={onChange} name="email" aria-describedby="emailHelp" placeholder="Enter email" />
+                    <input type="email" className="form-control" id="email" value={credentials.email} onChange={onChange} name="email" aria-describedby="emailHelp" placeholder="jalajpandey123@gmail.com" />
                 </div><br/>
                 <div className="form-group">
                     <label htmlFor="password" style={{"line-height":"2"}}>Password: </label>
-                    <input type="password" className="form-control" id="password" value={credentials.password} onChange={onChange} name="password" placeholder="Password" />
+                    <input type="password" className="form-control" id="password" value={credentials.password} onChange={onChange} name="password" placeholder="jalaj123" />
                 </div>
                 <div className="form-check">
                 </div>
